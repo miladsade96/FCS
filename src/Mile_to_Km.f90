@@ -9,4 +9,8 @@ program Mile_to_Km
     integer :: mile
     integer :: yard
     real :: km
+    print *, "Enter mile: "
+    read *, mile
+    print *, "Enter yard: "
+    read *, yard
 end program Mile_to_Km
