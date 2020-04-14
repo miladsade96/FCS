@@ -9,5 +9,7 @@ program escape_velocity
     real :: earth_radius = 6378.0e3, earth_mass = 5.98e24
     ! gravitational constant
     real :: G = 6.67300e-11
-    real :: escape_velocity
+    real :: esc_vel
+    esc_vel = sqrt(2.0 * G * earth_mass / earth_radius)
+    print *, "Escape Velocity(Earth): ", esc_vel / 1000.0, "km/sec"
 end program escape_velocity
