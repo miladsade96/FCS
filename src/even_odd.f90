@@ -4,4 +4,6 @@
 program even_odd
     implicit none
     integer :: number
+    print *, "Enter a positive integer: "
+    read *, number
 end program even_odd
