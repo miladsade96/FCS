@@ -13,4 +13,6 @@ program Mile_to_Km
     read *, mile
     print *, "Enter yard: "
     read *, yard
+    km = factor * (mile + yard / 1760.0)   ! 1 mile = 1760 yards
+    print *, mile, "mile(s) and ", yard, "yard(s) = ", km, "kilometer(s)."
 end program Mile_to_Km
