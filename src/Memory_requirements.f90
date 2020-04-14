@@ -11,4 +11,11 @@ program Memory_requirements
     complex :: d
     character :: e
     doublecomplex :: f
+    ! print out size of intrinsic data types
+    print *, "size of integer: ", storage_size(a)
+    print *, "size of real: ", storage_size(b)
+    print *, "size of double precision: ", storage_size(c)
+    print *, "size of complex: ", storage_size(d)
+    print *, "size of character: ", storage_size(e)
+    print *, "size of double complex: ", storage_size(f)
 end program Memory_requirements
