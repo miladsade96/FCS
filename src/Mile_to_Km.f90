@@ -3,5 +3,7 @@
 ! and converts it to kilometer.
 
 program Mile_to_Km
-
+    implicit none
+    ! mile to kilometer conversion factor
+    real, parameter :: factor = 1.609
 end program Mile_to_Km
