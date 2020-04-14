@@ -1,6 +1,7 @@
 ! Created by EverLookNeverSee@GitHub on 4/14/20.
 ! This program tests whether input number is even or odd.
-
+! Note: In this program the property of the integer division
+! is used to distinguish between the odd and an even number.
 program even_odd
     implicit none
     integer :: number
