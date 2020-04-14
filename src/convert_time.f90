@@ -5,4 +5,6 @@
 program convert_time
     implicit none
     integer :: hour, minute, second, temp, input_secs
+    print *, "Enter seconds: "
+    read *, input_secs
 end program convert_time
