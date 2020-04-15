@@ -8,4 +8,6 @@ program roots
     ! getting user input
     print *, "Enter the values of a, b, c:"
     read *, a, b, c
+    ! calculating delta
+    delta = (b ** 2) - (4.0 * a * c)
 end program roots
