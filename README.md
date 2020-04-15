@@ -14,6 +14,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Seconds to hour,minute,second](/src/convert_time.f90)
 * [Even or odd number](/src/even_odd.f90)
 * [Maximum and minimum](/src/max_min.f90)
-
+* [Roots of quadratic equation](/src/roots.f90)
 
 **Work in progress**
