@@ -6,4 +6,7 @@ program max_min
     implicit none
     ! declaring two integer variables
     integer :: number_1, number_2
+    print *, "Enter two integer number: "
+    ! getting user input
+    read *, number_1, number_2
 end program max_min
