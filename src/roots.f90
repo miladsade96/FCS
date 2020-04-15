@@ -10,4 +10,16 @@ program roots
     read *, a, b, c
     ! calculating delta
     delta = (b ** 2) - (4.0 * a * c)
+     if (delta > 0.0) then
+        sr_delta = sqrt(delta)
+        x_1 = (-b + sr_delta) / (2.0 * a)
+        x_2 = (-b - sr_delta) / (2.0 * a)
+        print *, "roots are:", x_1, x_2
+    elseif (delta == 0.0) then
+        x_1 = -b / (2.0 * a)
+        x_2 = x_1
+        print *, "roots are equal:", x_1, x_2
+    else    ! value of delta is less than 0.0
+        print *, "This quadratic equation has no real root."
+    end if
 end program roots
