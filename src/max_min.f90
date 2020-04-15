@@ -3,5 +3,7 @@
 ! determines which one is maximum and which one is minimum.
 
 program max_min
-
+    implicit none
+    ! declaring two integer variables
+    integer :: number_1, number_2
 end program max_min
