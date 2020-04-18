@@ -15,5 +15,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Even or odd number](/src/even_odd.f90)
 * [Maximum and minimum](/src/max_min.f90)
 * [Roots of quadratic equation](/src/roots.f90)
+* [Marks to grades](/src/mark_to_grade.f90)
 
 **Work in progress**
