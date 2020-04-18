@@ -3,5 +3,7 @@
 ! converts it to grades using case.
 
 program mark_to_grade
+    implicit none
+    integer :: mark     ! declaring a variable for user input
 
 end program mark_to_grade
