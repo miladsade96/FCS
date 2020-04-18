@@ -5,5 +5,6 @@
 program mark_to_grade
     implicit none
     integer :: mark     ! declaring a variable for user input
-
+    print *, "Enter a positive integer value(0 - 100):"
+    read *, mark
 end program mark_to_grade
