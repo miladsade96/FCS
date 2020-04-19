@@ -4,7 +4,7 @@
 program factorial
     implicit none
     ! defining user input variable
-    integer, parameter:: n
+    integer :: n
     ! defining counter and temporary factorial variables
     integer :: temp = 1, i
     print *, "Enter a positive integer value:"
