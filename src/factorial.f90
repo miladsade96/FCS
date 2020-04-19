@@ -7,8 +7,12 @@ program factorial
     integer :: n
     ! defining counter and temporary factorial variables
     integer :: temp = 1, i
-    print *, "Enter a positive integer value:"
+1   print *, "Enter a positive integer value:"
     read *, n
+    if (n < 1) then
+        print *, "You should enter a positive integer value!"
+        goto 1
+    end if
     do i = 1, n
         temp = temp * i
     end do
