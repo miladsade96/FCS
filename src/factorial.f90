@@ -5,4 +5,6 @@ program factorial
     implicit none
     ! defining user input variable
     integer, parameter:: n
+    ! defining counter and temporary factorial variables
+    integer :: temp = 1, i
 end program factorial
