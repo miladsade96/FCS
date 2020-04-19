@@ -9,4 +9,8 @@ program factorial
     integer :: temp = 1, i
     print *, "Enter a positive integer value:"
     read *, n
+    do i = 1, n
+        temp = temp * i
+    end do
+    print *, temp
 end program factorial
