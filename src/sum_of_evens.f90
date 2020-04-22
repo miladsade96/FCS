@@ -5,4 +5,7 @@ program sum_of_evens
     implicit none
     ! defining variables
     integer :: number, i, sum = 0
+    ! getting user input
+1   print *, "Please enter a positive integer number:"
+    read *, number
 end program sum_of_evens
