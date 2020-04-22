@@ -2,6 +2,7 @@
 ! This program add up all even numbers between 1 to user input.
 
 program sum_of_evens
-
-    end do
+    implicit none
+    ! defining variables
+    integer :: number, i, sum = 0
 end program sum_of_evens
