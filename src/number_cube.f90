@@ -7,4 +7,6 @@ program number_cube
     implicit none
     ! defining integer variables
     integer :: number, d1, d2, d3, d_temp
+    ! printing a statement
+    print *, "The numbers are:"
 end program number_cube
