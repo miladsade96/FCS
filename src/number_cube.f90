@@ -9,4 +9,11 @@ program number_cube
     integer :: number, d1, d2, d3, d_temp
     ! printing a statement
     print *, "The numbers are:"
+    ! Extracting digits using do
+    do number = 100, 999
+        d1 = number / 100       ! The left most digit of number
+        d_temp = mod(number, 100)
+        d2 = d_temp / 10        ! The second digit
+        d3 = mod(d_temp, 10)    ! The right most digit
+    end do
 end program number_cube
