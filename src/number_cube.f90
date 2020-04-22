@@ -15,5 +15,8 @@ program number_cube
         d_temp = mod(number, 100)
         d2 = d_temp / 10        ! The second digit
         d3 = mod(d_temp, 10)    ! The right most digit
+        if (d1 ** 3 + d2 ** 3 + d3 ** 3 == number) then
+            print *, number
+        end if
     end do
 end program number_cube
