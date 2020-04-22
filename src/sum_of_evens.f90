@@ -8,4 +8,9 @@ program sum_of_evens
     ! getting user input
 1   print *, "Please enter a positive integer number:"
     read *, number
+    ! Edge case
+    if (number <= 0) then
+        print *, "Invalid input!"
+        goto 1
+    end if
 end program sum_of_evens
