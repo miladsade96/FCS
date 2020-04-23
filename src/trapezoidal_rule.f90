@@ -6,4 +6,6 @@ program trapezoidal_rule
     implicit none
     ! declaring counter variables
     integer :: i, n = 100
+    ! declaring limits of integration
+    real :: a = 1.0, b = 4.0
 end program trapezoidal_rule
