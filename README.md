@@ -19,5 +19,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Factorial of N](src/factorial.f90)
 * [Number cube](src/number_cube.f90)
 * [Add up even numbers](/src/sum_of_evens.f90)
+* [GCD between two numbers](/src/gcd.f90)
 
 **Work in progress**
