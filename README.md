@@ -21,5 +21,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Add up even numbers](/src/sum_of_evens.f90)
 * [GCD between two numbers](/src/gcd.f90)
 * [Trapezoidal integration](src/trapezoidal_rule.f90)
+* [Simpson integral](/src/simpson_rule.f90)
 
 **Work in progress**
