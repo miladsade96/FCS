@@ -2,6 +2,9 @@
 ! This program integrate a function numerically
 ! using trapezoidal rule.
 
+! Trapezoidal Rule:
+!   integral f(x) dx = h[(f(a) + f(b)) / 2 + f(a + h) + f(a + 2h) +...+ f(a + nh)]
+
 program trapezoidal_rule
     implicit none
     ! declaring counter variables
