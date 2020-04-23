@@ -8,4 +8,7 @@ program trapezoidal_rule
     integer :: i, n = 100
     ! declaring limits of integration
     real :: a = 1.0, b = 4.0
+    ! declaring length of intervals and sum, h, x variables
+    real :: sum = 0.0, h, x
+    h = (b - a) / n
 end program trapezoidal_rule
