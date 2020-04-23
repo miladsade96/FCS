@@ -6,5 +6,7 @@
 ! https://en.wikipedia.org/wiki/Simpson's_rule
 
 program simpson_rule
-
+    implicit none
+    ! declaring counter and number of panels variables
+    integer :: i, n = 100
 end program simpson_rule
