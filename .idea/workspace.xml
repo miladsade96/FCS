@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6466814e-9605-487c-acd8-ea41664e97da" name="Default Changelist" comment="" />
+    <list default="true" id="6466814e-9605-487c-acd8-ea41664e97da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/fact.f90" beforeDir="false" afterPath="$PROJECT_DIR$/src/fact.f90" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Function" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,10 +44,53 @@
       <workItem from="1588446878943" duration="122000" />
       <workItem from="1588507849902" duration="30000" />
       <workItem from="1588580821215" duration="80000" />
+      <workItem from="1588851232642" duration="308000" />
     </task>
+    <task id="LOCAL-00001" summary="configuring new development environment">
+      <created>1588851288615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851288615</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding fact.f90">
+      <created>1588851300053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851300053</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding comments">
+      <created>1588851385667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851385667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="declaring parameters and return values">
+      <created>1588851518125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851518125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="configuring new development environment" />
+    <MESSAGE value="Adding fact.f90" />
+    <MESSAGE value="Adding comments" />
+    <MESSAGE value="declaring parameters and return values" />
+    <option name="LAST_COMMIT_MESSAGE" value="declaring parameters and return values" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="24" width="1920" height="1056" key="CommitChangelistDialog2" timestamp="1588851517812">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="0" y="24" width="1920" height="1056" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1588851517812" />
   </component>
 </project>
