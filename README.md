@@ -22,5 +22,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [GCD between two numbers](/src/gcd.f90)
 * [Trapezoidal integration](src/trapezoidal_rule.f90)
 * [Simpson integral](/src/simpson_rule.f90)
+* [Factorial of n(function)](src/fact.f90)
 
 **Work in progress**
