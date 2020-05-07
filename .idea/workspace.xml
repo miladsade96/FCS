@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6466814e-9605-487c-acd8-ea41664e97da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/fact.f90" beforeDir="false" afterPath="$PROJECT_DIR$/src/fact.f90" afterDir="false" />
+    <list default="true" id="6466814e-9605-487c-acd8-ea41664e97da" name="Default Changelist" comment="Adding factorial of n function to README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
       <workItem from="1588446878943" duration="122000" />
       <workItem from="1588507849902" duration="30000" />
       <workItem from="1588580821215" duration="80000" />
-      <workItem from="1588851232642" duration="308000" />
+      <workItem from="1588851232642" duration="868000" />
     </task>
     <task id="LOCAL-00001" summary="configuring new development environment">
       <created>1588851288615</created>
@@ -74,23 +74,58 @@
       <option name="project" value="LOCAL" />
       <updated>1588851518125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implementing the algorithm of factorial">
+      <created>1588851797951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851797951</updated>
+    </task>
+    <task id="LOCAL-00006" summary="configuring new development environment">
+      <created>1588851808589</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851808589</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding factorial of n function to README.md">
+      <created>1588851919393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851919393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updating .gitignore">
+      <created>1588852061768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588852061768</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="configuring new development environment" />
     <MESSAGE value="Adding fact.f90" />
     <MESSAGE value="Adding comments" />
     <MESSAGE value="declaring parameters and return values" />
-    <option name="LAST_COMMIT_MESSAGE" value="declaring parameters and return values" />
+    <MESSAGE value="implementing the algorithm of factorial" />
+    <MESSAGE value="configuring new development environment" />
+    <MESSAGE value="Adding factorial of n function to README.md" />
+    <MESSAGE value="updating .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating .gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="24" width="1920" height="1056" key="CommitChangelistDialog2" timestamp="1588851517812">
+    <state x="0" y="24" width="1920" height="1056" key="CommitChangelistDialog2" timestamp="1588852079294">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="0" y="24" width="1920" height="1056" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1588851517812" />
+    <state x="0" y="24" width="1920" height="1056" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1588852079294" />
+    <state x="556" y="289" key="Vcs.Push.Dialog.v2" timestamp="1588852096277">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="556" y="289" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1588852096277" />
   </component>
 </project>
