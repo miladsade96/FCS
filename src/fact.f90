@@ -3,6 +3,7 @@
 ! and thrn returns factorial of n.
 
 
-function fact()
-
+function fact(n) result(factorial)
+    integer :: n, i
+    real :: factorial, temp
 end function fact
