@@ -23,5 +23,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Trapezoidal integration](src/trapezoidal_rule.f90)
 * [Simpson integral](/src/simpson_rule.f90)
 * [Factorial of n(function)](src/fact.f90)
+* [Character reverse](/src/character_reverse.f90)
 
 **Work in progress**
