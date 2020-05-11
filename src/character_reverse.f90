@@ -17,4 +17,7 @@ end function character_reverse
 program main
     ! declaring variables
     character (len=5) :: user_input, result, character_reverse
+    ! getting user input character
+    print *, "Enter a character:"
+    read *, user_input
 end program main
