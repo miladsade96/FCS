@@ -13,3 +13,7 @@ function character_reverse(ch) result(res)
     end do
     res = adjustl(res)
 end function character_reverse
+
+program main
+
+end program main
