@@ -20,4 +20,7 @@ program main
     ! getting user input character
     print *, "Enter a character:"
     read *, user_input
+    ! calling character_reverse function
+    result = character_reverse(user_input)
+    print *, "result:", result
 end program main
