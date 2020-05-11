@@ -15,5 +15,6 @@ function character_reverse(ch) result(res)
 end function character_reverse
 
 program main
-
+    ! declaring variables
+    character (len=5) :: user_input, result, character_reverse
 end program main
