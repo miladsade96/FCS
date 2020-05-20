@@ -13,4 +13,9 @@ program quadratic_equation_solver
     if (b > 0.0) sgn_b = 1.0
     if (b == 0.0) sgn_b = 0.0
     if (b < 0.0) sgn_b = -1.0
+    if (disc >= 0.0) then
+        x_1 = (-b - sgn_b * sqrt(disc)) / two_a
+        x_2 = c / a * x_1
+        print *,"Real Solution, Roots Are:", x_1, x_2
+    end if
 end program quadratic_equation_solver
