@@ -9,4 +9,8 @@ program quadratic_equation_solver
     complex :: z_1, z_2
     ! calculating the discriminant
     disc = b ** 2 - 4.0 * a * c
+    two_a = 2.0 * a
+    if (b > 0.0) sgn_b = 1.0
+    if (b == 0.0) sgn_b = 0.0
+    if (b < 0.0) sgn_b = -1.0
 end program quadratic_equation_solver
