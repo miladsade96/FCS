@@ -4,5 +4,6 @@
 !and a subroutine SWAP that swaps two variables a and b.
 
 module library
-
+    use constants
+    contains
 end module library
