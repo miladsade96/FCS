@@ -9,4 +9,10 @@ module library
     function F(x)
         F = x + x ** 2 + pi
     end function F
+
+    subroutine SWAP(a, b)
+        temp = a
+        a = b
+        b = temp
+    end subroutine SWAP
 end module library
