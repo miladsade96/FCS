@@ -17,5 +17,9 @@ program quadratic_equation_solver
         x_1 = (-b - sgn_b * sqrt(disc)) / two_a
         x_2 = c / a * x_1
         print *,"Real Solution, Roots Are:", x_1, x_2
+    else
+        z_1 = (-b + csqrt(cmplx(disc, 0.0))) / two_a
+        z_2 = c / a * z_1
+        print *,"complex Solution, Roots Are:", z_1, z_2
     end if
 end program quadratic_equation_solver
