@@ -26,5 +26,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Character reverse](/src/character_reverse.f90)
 * [Factorial of n using recursion](/src/recursive_factorial.f90)
 * [Constants module](/src/constants.f90)
+* [library module](/src/library.f90)
 
 **Work in progress**
