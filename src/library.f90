@@ -6,4 +6,7 @@
 module library
     use constants
     contains
+    function F(x)
+        F = x + x ** 2 + pi
+    end function F
 end module library
