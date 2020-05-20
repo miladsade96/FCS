@@ -1,9 +1,9 @@
 ! Created by EverLookNeverSee@GitHub on 5/20/20.
-! This program calculates the roots of a quadratic
+! This subroutine calculates the roots of a quadratic
 ! equation with ability to generate complex roots.
 
 
-program quadratic_equation_solver
+subroutine quadratic_equation_solver(a, b, c)
     ! declaring variables
     real :: a, b, c, two_a, x_1, x_2, sgn_b, disc
     complex :: z_1, z_2
@@ -22,4 +22,4 @@ program quadratic_equation_solver
         z_2 = c / a * z_1
         print *,"complex Solution, Roots Are:", z_1, z_2
     end if
-end program quadratic_equation_solver
+end subroutine quadratic_equation_solver
