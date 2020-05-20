@@ -4,5 +4,7 @@
 
 
 program quadratic_equation_solver
-
+    ! declaring variables
+    real :: a, b, c, two_a, x_1, x_2, sgn_b
+    complex :: z_1, z_2
 end program quadratic_equation_solver
