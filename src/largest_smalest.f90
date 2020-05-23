@@ -4,7 +4,7 @@
 program largest_smalest
     implicit none
     ! declaring variables
-    integer :: n
+    integer :: n, i
     real, allocatable, dimension(:) :: a
     1   print *, "Number of elements in the sequence(positive integer):"
     read *, n
@@ -14,4 +14,9 @@ program largest_smalest
     end if
     ! creating an array with n blocks
     allocate(a(n))
+    ! getting elements of sequence from user
+    do i = 1, n
+        print *,"a(",i,"):"
+        read *, a(i)
+    end do
 end program largest_smalest
