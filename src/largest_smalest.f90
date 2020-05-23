@@ -6,4 +6,6 @@ program largest_smalest
     ! declaring variables
     integer :: n
     real, allocatable, dimension(:) :: a
+    1   print *, "Number of elements in the sequence(positive integer):"
+    read *, n
 end program largest_smalest
