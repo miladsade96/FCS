@@ -33,4 +33,6 @@ program largest_smalest
             Small = a(i)
         end if
     end do
+    ! printing results
+    print *,"smallest element:", Small, "Biggest element:", Big
 end program largest_smalest
