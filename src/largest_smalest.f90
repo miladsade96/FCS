@@ -8,4 +8,8 @@ program largest_smalest
     real, allocatable, dimension(:) :: a
     1   print *, "Number of elements in the sequence(positive integer):"
     read *, n
+    ! checking user input that should be positive integer
+    if (n <= 0) then
+        goto 1
+    end if
 end program largest_smalest
