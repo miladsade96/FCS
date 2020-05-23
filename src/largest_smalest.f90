@@ -5,6 +5,8 @@ program largest_smalest
     implicit none
     ! declaring variables
     integer :: n, i
+    ! declaring temporary biggest and smallest elements
+    real :: Big, Small
     real, allocatable, dimension(:) :: a
     1   print *, "Number of elements in the sequence(positive integer):"
     read *, n
@@ -19,4 +21,7 @@ program largest_smalest
         print *,"a(",i,"):"
         read *, a(i)
     end do
+    ! set to first element of sequence
+    Big = a(1)
+    Small = a(1)
 end program largest_smalest
