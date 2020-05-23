@@ -12,4 +12,6 @@ program largest_smalest
     if (n <= 0) then
         goto 1
     end if
+    ! creating an array with n blocks
+    allocate(a(n))
 end program largest_smalest
