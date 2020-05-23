@@ -28,5 +28,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Constants module](/src/constants.f90)
 * [library module](/src/library.f90)
 * [Quadratic equation solver(with complex roots)](/src/quadratic_equation_solver.f90)
+* [Largest and smallest elements in the sequence](/src/largest_smalest.f90)
 
 **Work in progress**
