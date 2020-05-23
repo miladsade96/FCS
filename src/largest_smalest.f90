@@ -24,4 +24,13 @@ program largest_smalest
     ! set to first element of sequence
     Big = a(1)
     Small = a(1)
+    ! checking elements to find smallest and largest element
+    do i = 2, n
+        if (Big < a(i)) then
+            Big = a(i)
+        end if
+        if (Small > a(i)) then
+            Small = a(i)
+        end if
+    end do
 end program largest_smalest
