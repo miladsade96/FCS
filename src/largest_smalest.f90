@@ -2,6 +2,7 @@
 ! This program finds the largest and the smallest elements of a sequence.
 
 program largest_smalest
+    implicit none
     ! declaring variables
     integer :: n
     real, allocatable, dimension(:) :: a
