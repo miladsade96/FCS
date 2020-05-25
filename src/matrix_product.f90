@@ -19,4 +19,20 @@ program matrix_product
         end if
         exit
     end do
+
+    print *, "Matrix B:"
+    do
+        print *, "Enter number of rows and columns for matrix B:"
+        read *, o, p
+        if (o <= 0 .or. p <= 0) then
+            print *, "number of rows and columns should be positive integers"
+            print *, "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
+            cycle
+        end if
+        if (n /= o) then
+            print *, "Number columns in matrix A should be equal to number of rows in matrix B."
+            cycle
+        end if
+        exit
+    end do
 end program matrix_product
