@@ -16,4 +16,9 @@ program aac
     end do
     ! allocating memory for array
     allocate(sequence(n))
+    ! getting elements of sequence from user input
+    do i = 1, n
+        print *, "Element number", i, "is:"
+        read *, sequence(i)
+    end do
 end program aac
