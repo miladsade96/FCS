@@ -57,4 +57,14 @@ program matrix_product
             read*, B(i, j)
         end do
     end do
+
+    ! computing prodcut operation
+    do i = 1, m
+        do j = 1, p
+            C(i, j) = 0.0
+            do k = 1, n
+                C(i, j) = C(i, j) + A(i, k) * B(k, j)
+            end do
+        end do
+    end do
 end program matrix_product
