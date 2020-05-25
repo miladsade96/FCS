@@ -32,4 +32,6 @@ program aac
             end if
         end do
     end do
+    ! printing sorted sequence.
+    print *, sequence
 end program aac
