@@ -35,4 +35,9 @@ program matrix_product
         end if
         exit
     end do
+
+    ! Allocating memory space for matrices
+    allocate(A(m, n))
+    allocate(B(o, p))
+    allocate(C(m, p))
 end program matrix_product
