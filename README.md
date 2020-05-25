@@ -30,5 +30,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Quadratic equation solver(with complex roots)](/src/quadratic_equation_solver.f90)
 * [Largest and smallest elements in the sequence](/src/largest_smalest.f90)
 * [Ascending arrangement of sequence](/src/aas.f90)
+* [Matrix Product of A and B](/src/matrix_product.f90)
 
 **Work in progress**
