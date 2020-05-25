@@ -14,4 +14,6 @@ program aac
         read *, n
         if (n > 0) exit
     end do
+    ! allocating memory for array
+    allocate(sequence(n))
 end program aac
