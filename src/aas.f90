@@ -1,7 +1,7 @@
 ! Created by EverLookNeverSee@GitHub on 5/25/20.
 ! This program sorts a sequence in ascending order.
 
-program aac
+program aas
     implicit none
     ! declaring variables
     integer :: n, i, j
@@ -34,4 +34,4 @@ program aac
     end do
     ! printing sorted sequence.
     print *, sequence
-end program aac
+end program aas
