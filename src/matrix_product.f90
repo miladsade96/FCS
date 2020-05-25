@@ -49,4 +49,12 @@ program matrix_product
             read*, A(i, j)
         end do
     end do
+    ! Getting elements of matrix B from user
+    print *, "Getting elements of matrix B:"
+    do i = 1, o
+        do j = 1, p
+            print *, "B(", i, j, "):"
+            read*, B(i, j)
+        end do
+    end do
 end program matrix_product
