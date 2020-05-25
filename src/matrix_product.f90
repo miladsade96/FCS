@@ -40,4 +40,13 @@ program matrix_product
     allocate(A(m, n))
     allocate(B(o, p))
     allocate(C(m, p))
+
+    ! Getting elements of matrix A from user
+    print *, "Getting elements of matrix A:"
+    do i = 1, m
+        do j = 1, n
+            print *, "A(", i, j, "):"
+            read*, A(i, j)
+        end do
+    end do
 end program matrix_product
