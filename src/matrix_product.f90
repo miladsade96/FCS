@@ -67,4 +67,7 @@ program matrix_product
             end do
         end do
     end do
+
+    ! printing result
+    print *, "Result -->", ((C(i, j), j = 1, p), i = 1, m)
 end program matrix_product
