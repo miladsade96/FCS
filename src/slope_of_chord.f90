@@ -4,3 +4,7 @@
 !               y = sqrt(x) ,       if 0 =< x =< 1
 ! y = f(x) -->
 !               y = e ** (1 - x) ,  if x > 1
+
+function f(x)
+
+end function f
