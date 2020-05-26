@@ -15,3 +15,8 @@ function f(x)
     end if
     return
 end function f
+
+program main
+    slope = (f(0.5) - f(2.)) / 0.5 - 2.0
+    print *, slope
+end program main
