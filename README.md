@@ -31,5 +31,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Largest and smallest elements in the sequence](/src/largest_smalest.f90)
 * [Ascending arrangement of sequence](/src/aas.f90)
 * [Matrix Product of A and B](/src/matrix_product.f90)
+* [Slope of the chod](/src/slope_of_chord.f90)
 
 **Work in progress**
