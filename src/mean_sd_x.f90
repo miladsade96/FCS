@@ -32,3 +32,12 @@ subroutine standrd_deviation(n, seq, x_bar, sd)
     sd = sqrt(sum / (n - 1))
     return
 end subroutine standrd_deviation
+
+
+program main
+    implicit none
+    ! declaring variables
+    real, allocatable, dimension(:) :: A
+    real :: mean_value, sta_dev
+    integer :: n, i
+end program main
