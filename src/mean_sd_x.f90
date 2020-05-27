@@ -28,4 +28,7 @@ subroutine standrd_deviation(n, seq, x_bar, sd)
     do i = 1, n
         sum = sum + (seq(i) - x_bar) ** 2
     end do
+    ! calculating square root and returning result
+    sd = sqrt(sum / (n - 1))
+    return
 end subroutine standrd_deviation
