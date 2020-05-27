@@ -57,4 +57,8 @@ program main
         print *, "A(", i, "):"
         read *, A(i)
     end do
+    ! calling subroutines and printing results
+    call mean(n, A, mean_value)
+    call standrd_deviation(n, A, mean_value, sta_dev)
+    print *, "mean:", mean_value, "standrd deviation:", sta_dev
 end program main
