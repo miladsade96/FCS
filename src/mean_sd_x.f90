@@ -50,4 +50,6 @@ program main
         end if
         exit
     end do
+    ! allocating memory space for array
+    allocate(A(n))
 end program main
