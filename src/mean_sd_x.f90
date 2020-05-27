@@ -40,4 +40,14 @@ program main
     real, allocatable, dimension(:) :: A
     real :: mean_value, sta_dev
     integer :: n, i
+    ! specifying number of elements in sequence
+    do
+        print *,"Enter nubmer of elements in sequence:"
+        read *, n
+        if (n <= 0) then
+            print *, "Please enter a positive integer!"
+            cycle
+        end if
+        exit
+    end do
 end program main
