@@ -8,4 +8,10 @@ subroutine mean(n, seq, mean_value)
     real, intent(in) :: seq(n)
     real, intent(out) :: mean_value
     real :: sum = 0.
+    ! Calculating mean value and returning it
+    do i = 1, n
+        sum = sum + seq(i)
+    end do
+    mean_value = sum / n
+    return
 end subroutine mean
