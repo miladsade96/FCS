@@ -15,3 +15,7 @@ subroutine mean(n, seq, mean_value)
     mean_value = sum / n
     return
 end subroutine mean
+
+subroutine standrd_deviation(n, seq, x_bar, sd)
+
+end subroutine standrd_deviation
