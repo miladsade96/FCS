@@ -52,4 +52,9 @@ program main
     end do
     ! allocating memory space for array
     allocate(A(n))
+    ! getting elements of the sequence
+    do i = 1, n
+        print *, "A(", i, "):"
+        read *, A(i)
+    end do
 end program main
