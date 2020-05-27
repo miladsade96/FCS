@@ -32,5 +32,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Ascending arrangement of sequence](/src/aas.f90)
 * [Matrix Product of A and B](/src/matrix_product.f90)
 * [Slope of the chod](/src/slope_of_chord.f90)
+* [Mean and standard deviation of the sequence](/src/mean_sd_x.f90)
 
 **Work in progress**
