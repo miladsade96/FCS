@@ -17,5 +17,11 @@ subroutine mean(n, seq, mean_value)
 end subroutine mean
 
 subroutine standrd_deviation(n, seq, x_bar, sd)
-
+    implicit none
+    ! declaring parameters
+    integer :: i, n
+    real, intent(in) :: seq(n)
+    real, intent(in) :: x_bar
+    real, intent(out) :: sd
+    real :: sum = 0.
 end subroutine standrd_deviation
