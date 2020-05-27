@@ -24,4 +24,8 @@ subroutine standrd_deviation(n, seq, x_bar, sd)
     real, intent(in) :: x_bar
     real, intent(out) :: sd
     real :: sum = 0.
+    ! calculating sum of elements minus mean value
+    do i = 1, n
+        sum = sum + (seq(i) - x_bar) ** 2
+    end do
 end subroutine standrd_deviation
