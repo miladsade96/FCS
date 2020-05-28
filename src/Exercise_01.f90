@@ -11,4 +11,7 @@ program main
     implicit none
     ! declaring variables
     real :: I, E, R, L, C, f
+    ! getting user input
+    print *, "Enter values for E, R, L, C, and f respectively:"
+    read *, E, R, L, C, f
 end program main
