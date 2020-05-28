@@ -11,4 +11,7 @@ program main
     real :: w = 513.0, h = 3.0, phi = 30.0, P, radian_phi
     ! the argument of trigonometric functions must be in radians
     radian_phi = phi * 3.1415 / 180.0
+    ! calculating P
+    P = ((w * h ** 2.0) / 2.0) * ((1.0 - sin(radian_phi) / (1.0 + sin(radian_phi))))
+    print *, "P:", P
 end program main
