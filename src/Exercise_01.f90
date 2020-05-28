@@ -14,4 +14,7 @@ program main
     ! getting user input
     print *, "Enter values for E, R, L, C, and f respectively:"
     read *, E, R, L, C, f
+    ! calculating I and printing the result
+    I = E / sqrt(R ** 2 + ((2.0 * 3.1415 / L) - 1.0 / (2.0 * 3.1415 * f * C)) ** 2)
+    print *, "I:", I
 end program main
