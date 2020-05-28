@@ -9,4 +9,6 @@ program main
     ! C --> capacitance(farads)
     ! f --> frequency(herts)
     implicit none
+    ! declaring variables
+    real :: I, E, R, L, C, f
 end program main
