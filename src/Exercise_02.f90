@@ -9,4 +9,6 @@ program main
     ! phi --> angle of repose of filled material
     ! declaring variables
     real :: w = 513.0, h = 3.0, phi = 30.0, P, radian_phi
+    ! the argument of trigonometric functions must be in radians
+    radian_phi = phi * 3.1415 / 180.0
 end program main
