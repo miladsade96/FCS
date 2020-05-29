@@ -13,4 +13,6 @@ program main
     integer :: i,theta, j = 1
     real :: n, r, w, radian_theta
     real, dimension(37) :: x, v
+    ! initializing variables
+    n = 4; r = 4; w = 2000; theta = 360
 end program main
