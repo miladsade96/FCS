@@ -35,5 +35,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Mean and standard deviation of the sequence](/src/mean_sd_x.f90)
 * [Exercise_01](/src/Exercise_01.f90)
 * [Exercise_02](/src/Exercise_02.f90)
+* [Exercise_03](/src/Exercise_03.f90)
 
 **Work in progress**
