@@ -26,4 +26,7 @@ program main
         ! increasing counter of arrays blocks
         j = j + 1
     end do
+    ! printing results
+    print *, "x:", x
+    print *, "v:", v
 end program main
