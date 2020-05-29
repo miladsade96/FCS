@@ -3,4 +3,14 @@
 
 program main
     implicit none
+    ! n --> rod length
+    ! r --> crank radius
+    ! w --> angular Velocity(rpm)
+    ! theta --> crank angle
+    ! x --> displaceemnt
+    ! v --> velocity
+    ! declaring variables
+    integer :: i,theta, j = 1
+    real :: n, r, w, radian_theta
+    real, dimension(37) :: x, v
 end program main
