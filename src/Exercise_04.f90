@@ -3,4 +3,8 @@
 
 program main
     implicit none
+    ! declaring variables
+    integer :: i = 1
+    real :: R = 20
+    real , dimension(37) :: S
 end program main
