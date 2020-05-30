@@ -13,4 +13,12 @@ program main
         else
         S(i) = 18000 / (1 + (R ** 2 / 18000))
     end if
+    ! checking current value of R to making loop
+    if (R < 200) then
+        ! incrementation of R
+        R = R + 5
+        ! icrementation of array blocks counter
+        i = i + 1
+        goto 1
+    end if
 end program main
