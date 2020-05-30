@@ -5,18 +5,18 @@ program main
     implicit none
     ! declaring variables
     integer :: i = 1
-    real :: R = 20
+    real :: R = 20.0
     real , dimension(37) :: S
     ! checking current value of R to compute corresponding S
     1   if (R <= 120) then
-        S(i) = 17000 - (0.485 * R ** 2)
+        S(i) = 17000.0 - (0.485 * R ** 2)
         else
-        S(i) = 18000 / (1 + (R ** 2 / 18000))
+        S(i) = 18000.0 / (1.0 + (R ** 2 / 18000.0))
     end if
     ! checking current value of R to making loop
     if (R < 200) then
         ! incrementation of R
-        R = R + 5
+        R = R + 5.0
         ! icrementation of array blocks counter
         i = i + 1
         goto 1
