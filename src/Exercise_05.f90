@@ -5,4 +5,9 @@ program main
     implicit none
     ! declaring variables
     complex :: a, b, c, z_1, z_2, delta, sqr_delta
+    ! getting coefficients from user
+    print *, "Please enter coefficients:(a, b, c):"
+    read *, a
+    read *, b
+    read *, c
 end program main
