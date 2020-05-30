@@ -2,5 +2,6 @@
 ! For more information see FCS/img/Exercise_06.png
 
 program main
-    implicit none
+    ! using integer 64-bit to avoid overflow
+    use iso_fortran_env, only: int64
 end program main
