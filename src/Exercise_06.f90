@@ -23,4 +23,9 @@ program main
         s_3 = s_3 + i ** 3
         factorial = factorial * i
     end do
+    ! printing results
+    print *,"s_1 = ", s_1
+    print *,"s_2 = ", s_2
+    print *,"s_3 = ", s_3
+    print *,"factorial = ", factorial
 end program main
