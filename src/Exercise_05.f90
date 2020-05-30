@@ -3,4 +3,6 @@
 
 program main
     implicit none
+    ! declaring variables
+    complex :: a, b, c, z_1, z_2, delta, sqr_delta
 end program main
