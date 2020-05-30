@@ -36,5 +36,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Exercise_01](/src/Exercise_01.f90)
 * [Exercise_02](/src/Exercise_02.f90)
 * [Exercise_03](/src/Exercise_03.f90)
+* [Exercise_04](/src/Exercise_04.f90)
 
 **Work in progress**
