@@ -16,4 +16,11 @@ program main
         end if
         exit
     end do
+    ! calculating operations
+    do i = 1, n
+        s_1 = s_1 + i
+        s_2 = s_2 + i ** 2
+        s_3 = s_3 + i ** 3
+        factorial = factorial * i
+    end do
 end program main
