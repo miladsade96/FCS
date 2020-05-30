@@ -21,4 +21,6 @@ program main
         i = i + 1
         goto 1
     end if
+    ! printing results
+    print *, "S:", S
 end program main
