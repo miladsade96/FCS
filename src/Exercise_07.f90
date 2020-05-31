@@ -4,4 +4,8 @@
 
 program main
     implicit none
+    ! declaring variables
+    integer :: i, degree
+    real :: x, result = 0.0
+    real, allocatable, dimension(:) :: P    ! to store polynomial coefficients
 end program main
