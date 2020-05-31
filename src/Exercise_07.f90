@@ -38,4 +38,6 @@ program main
             result = result * x + P(i)
         end do
     end if
+    ! printing the result
+    print *, "Result:", result
 end program main
