@@ -20,4 +20,9 @@ program main
     end do
     ! creating array blocks based on polynomial degree
     allocate(P(degree + 1))
+    ! when we have constant(degree of zero) equation
+    if (degree == 0) then
+        print *, "Please enyter your single value(intercept):"
+        read *, P(1)
+        result = P(1)
 end program main
