@@ -8,4 +8,14 @@ program main
     integer :: i, degree
     real :: x, result = 0.0
     real, allocatable, dimension(:) :: P    ! to store polynomial coefficients
+    ! specifying polynomial degree using user input
+    do
+        print *, "Enter degree of the polynomial:"
+        read *, degree
+        if (degree < 0) then
+            print *, "Degree should not be negative!"
+            cycle
+        end if
+        exit
+    end do
 end program main
