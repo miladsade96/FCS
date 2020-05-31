@@ -25,4 +25,17 @@ program main
         print *, "Please enyter your single value(intercept):"
         read *, P(1)
         result = P(1)
+    else    ! for upper degrres of equations
+        print *, "Please enter the value of x:"
+        read *, x
+        print *, "Please enter polynomial coeffs using the form below:"
+        print *, "ax**0 +- bx**1 +- cx**2 +- ... +- dx**n"
+        do i = 1, size(P)
+            print *, "Enter cefficient of x**", i - 1, ":"
+            read *, P(i)
+        end do
+        do i = size(P), 1, -1
+            result = result * x + P(i)
+        end do
+    end if
 end program main
