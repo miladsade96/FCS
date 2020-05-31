@@ -18,4 +18,6 @@ program main
         end if
         exit
     end do
+    ! creating array blocks based on polynomial degree
+    allocate(P(degree + 1))
 end program main
