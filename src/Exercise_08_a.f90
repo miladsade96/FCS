@@ -3,4 +3,7 @@
 
 program main
     implicit none
+    ! declaring and initializing variables
+    real :: sum = 0.0, theta = 1.57079, t = 1.0
+    integer :: i = 0
 end program main
