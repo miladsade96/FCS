@@ -13,4 +13,6 @@ program main
         t = t * (-theta * theta) / (2 * i * (2 * i - 1))
         if (sum + t == sum) exit
     end do
+    ! printing results
+    print *, "Cos(", theta, "):", sum
 end program main
