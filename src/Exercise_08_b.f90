@@ -16,3 +16,7 @@ function fact(n) result(factorial)
         factorial = temp
     end if
 end function fact
+
+program main
+    implicit none
+end program main
