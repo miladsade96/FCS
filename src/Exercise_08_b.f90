@@ -24,4 +24,7 @@ program main
     ! fact --> declaration of fact function
     ! sum --> current sum of elements in series
     ! previous --> sum of elements in previous step
+    ! declaring and initializing variables
+    integer :: i = 1
+    real :: sum = 1.0 , x = 1.2, previous, Ea, fact
 end program main
