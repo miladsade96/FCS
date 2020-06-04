@@ -19,4 +19,9 @@ end function fact
 
 program main
     implicit none
+    ! x --> the exponent of `e`
+    ! Ea --> approximation error
+    ! fact --> declaration of fact function
+    ! sum --> current sum of elements in series
+    ! previous --> sum of elements in previous step
 end program main
