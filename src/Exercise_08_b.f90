@@ -32,6 +32,19 @@ program main
         if (i == 1) then
             sum = sum + x
             i = i + 1
+        ! Calculating and adding up rest of elements of series
+        else
+            previous = sum
+            sum = sum + (x ** i / fact(i))
+            Ea = sum - previous
+            ! Exit whenever approximation error is less than 10e-10
+            if (Ea < 10e-10) then
+                exit
+            ! keep going to calculate and add up next element of series
+            else
+                i = i + 1
+                cycle
+            end if
         end if
     end do
 end program main
