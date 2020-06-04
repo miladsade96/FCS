@@ -47,4 +47,7 @@ program main
             end if
         end if
     end do
+    ! printing results
+    print *, "Sum:", sum
+    print *, "EXP(", x, "):", EXP(x)    ! This is fortran intrinsic exp function
 end program main
