@@ -27,4 +27,11 @@ program main
     ! declaring and initializing variables
     integer :: i = 1
     real :: sum = 1.0 , x = 1.2, previous, Ea, fact
+    do
+        ! Adding up second element of series -> `x` itself
+        if (i == 1) then
+            sum = sum + x
+            i = i + 1
+        end if
+    end do
 end program main
