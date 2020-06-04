@@ -33,7 +33,7 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
 * [Matrix Product of A and B](/src/matrix_product.f90)
 * [Slope of the chod](/src/slope_of_chord.f90)
 * [Mean and standard deviation of the sequence](/src/mean_sd_x.f90)
-* [Testing OpenMP]
+* [Testing OpenMP Library](/src/test_open_mp.f90)
 * [Exercise_01](/src/Exercise_01.f90)
 * [Exercise_02](/src/Exercise_02.f90)
 * [Exercise_03](/src/Exercise_03.f90)
