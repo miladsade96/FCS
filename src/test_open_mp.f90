@@ -11,3 +11,5 @@ program main
     print *, "Inside paralell region, Thread no:", omp_get_thread_num()
     !$omp end parallel
 end program main
+
+! Note: Use `gfortran -fopenmp fileName.f90` to compile.
