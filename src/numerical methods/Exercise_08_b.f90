@@ -2,7 +2,8 @@
 ! For more information see FCS/img/Exercise_08_b.png
 
 function fact(n) result(factorial)
-    integer :: n, i
+    integer, intent(in) :: n
+    integer :: i
     real :: factorial, temp
     if (n < 0) then
         factorial = -1.0    ! error
