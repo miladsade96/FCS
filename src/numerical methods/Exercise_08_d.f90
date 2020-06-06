@@ -48,4 +48,7 @@ program main
             end if
         end if
     end do
+    ! printing and comparing results
+    print *, "Total(aka arcsin):", total
+    print *, "Fortran intrinsic arcsin function:", ASIN(x)
 end program main
