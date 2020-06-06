@@ -29,4 +29,13 @@ program main
     ! declaring and initializing variables
     integer :: k = 0
     real :: x = 0.5, total = 0.0, Ea, previous, fact
+    do
+        ! Adding up first element of series -> `x` itself
+        if (k == 0) then
+            total = total + x
+            k = k + 1
+        end if
+    end do
+    print *, "Sum of elements:", total
+    print *, "ASIN(", x, "):", ASIN(x)
 end program main
