@@ -10,3 +10,7 @@
 !   for a certain precision.
 
 ! I could not have done it without @taless474, @diehlpk and @LKedward
+
+program main
+    implicit none
+end program main
