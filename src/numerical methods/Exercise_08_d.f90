@@ -26,4 +26,7 @@ program main
     ! previous --> sum of elements in previous step
     ! fact --> declaration of fact function
     ! Ea --> approximation error
+    ! declaring and initializing variables
+    integer :: k = 0
+    real :: x = 0.5, total = 0.0, Ea, previous, fact
 end program main
