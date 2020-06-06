@@ -21,4 +21,9 @@ end function fact
 
 program main
     implicit none
+    ! x --> given value that we're gonna calculate its arcsin
+    ! total --> sum of the elements in series
+    ! previous --> sum of elements in previous step
+    ! fact --> declaration of fact function
+    ! Ea --> approximation error
 end program main
