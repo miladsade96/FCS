@@ -34,8 +34,18 @@ program main
         if (k == 0) then
             total = total + x
             k = k + 1
+        else ! Calculating and adding up rest of elements of series
+            previous = total
+            total = total + (fact(2 * k) * x ** (2 * k + 1) &
+                    / (2 ** (2 * k) * fact(k) ** 2 * (2 * k + 1)))
+            Ea = total - previous
+            ! Exit whenever approximation error is less than 10e-10
+            if (Ea < 10e-10) then
+                exit
+            else  ! keep going to calculate and add up next element of series
+                k = k + 1
+                cycle
+            end if
         end if
     end do
-    print *, "Sum of elements:", total
-    print *, "ASIN(", x, "):", ASIN(x)
 end program main
