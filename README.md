@@ -14,7 +14,7 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
     * [Escape velocity from earth](/src/other/escape_velocity.f90)
     * [Seconds to hour,minute,second](/src/other/convert_time.f90)
     * [Even or odd number](/src/other/even_odd.f90)
-    * [Maximum and minimum](/src/othermax_min.f90)
+    * [Maximum and minimum](/src/other/max_min.f90)
     * [Roots of quadratic equation](/src/other/roots.f90)
     * [Marks to grades](/src/other/mark_to_grade.f90)
     * [Factorial of N](src/other/factorial.f90)
