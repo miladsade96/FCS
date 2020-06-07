@@ -38,4 +38,9 @@ program main
             end if
         end if
     end do
+    ! calculating final result for ln(x)
+    ln3 = m * ln2 - (2 * xi_sum)
+    ! printing and comparing results
+    print *, "ln(", x, "):", ln3
+    print *, "ln(", x, ") --> fortran intrinsic function:", ALOG(x)
 end program main
