@@ -13,4 +13,7 @@
 
 program main
     implicit none
+    ! xi_sum --> sum of xi elements
+    ! previous --> sum of xi elements in previous step
+    ! Ea --> approximation error
 end program main
