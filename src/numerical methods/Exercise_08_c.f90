@@ -20,4 +20,11 @@ program main
     integer :: i = 1
     real :: x = 3.0, m = 2.0, z = 0.75, ln2 = 0.6931472, ln3, xi, xi_sum = 0.0, previous, Ea
     xi = (1 - z) / (1 + z)
+    do  ! only xi part of formula is infinite and we need to truncate it
+        ! Adding up first element of `xi` series -> `xi` itself
+        if (i == 1) then
+            xi_sum = xi
+            i = i + 1
+        end if
+    end do
 end program main
