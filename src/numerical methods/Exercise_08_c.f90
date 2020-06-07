@@ -25,6 +25,17 @@ program main
         if (i == 1) then
             xi_sum = xi
             i = i + 1
+        else    ! Calculating and adding up rest of the elements of series
+            previous = xi_sum
+            xi_sum = xi_sum + (xi **(2 * i - 1) / (2 * i - 1))
+            Ea = xi_sum - previous
+            ! Exit whenever approximation error is less than 10e-10
+            if (Ea < 10e-10) then
+                exit
+            else    ! Keep going to calculate and add up next element of seirs
+                i = i + 1
+                cycle
+            end if
         end if
     end do
 end program main
