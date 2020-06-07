@@ -16,4 +16,8 @@ program main
     ! xi_sum --> sum of xi elements
     ! previous --> sum of xi elements in previous step
     ! Ea --> approximation error
+    ! declaring and initializing variables
+    integer :: i = 1
+    real :: x = 3.0, m = 2.0, z = 0.75, ln2 = 0.6931472, ln3, xi, xi_sum = 0.0, previous, Ea
+    xi = (1 - z) / (1 + z)
 end program main
