@@ -48,5 +48,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
     * [Exercise_08_b](/src/numerical%20methods/Exercise_08_b.f90)
     * [Exercise_08_c](src/numerical%20methods/Exercise_08_c.f90)
     * [Exercise_08_d](/src/numerical%20methods/Exercise_08_d.f90)
+    * [Exercise_09_a](/src/numerical%20methods/Exercise_09_a.f90)
 
 **Work in progress**
