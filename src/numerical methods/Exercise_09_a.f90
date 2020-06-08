@@ -16,4 +16,8 @@ program main
         tmp = (abs(A(i))) ** 2
         sum_of_elements = sum_of_elements + tmp
     end do
+    ! square root of sum
+    norm = sqrt(sum_of_elements)
+    ! printing results
+    print *, "norm=", norm
 end program main
