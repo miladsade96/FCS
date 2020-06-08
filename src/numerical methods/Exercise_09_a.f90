@@ -11,4 +11,9 @@ program main
     read *, n
     allocate(A(n))
     read *, A
+    ! sum of all squared elements in the vector
+    do i = 1, n
+        tmp = (abs(A(i))) ** 2
+        sum_of_elements = sum_of_elements + tmp
+    end do
 end program main
