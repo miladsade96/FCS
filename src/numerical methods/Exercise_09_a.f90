@@ -9,4 +9,6 @@ program main
     real, allocatable, dimension(:) :: A
     print *, "please enter number of elements in the vector:"
     read *, n
+    allocate(A(n))
+    read *, A
 end program main
