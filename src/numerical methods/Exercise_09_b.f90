@@ -26,4 +26,8 @@ program main
             sum_of_elements = sum_of_elements + tmp
         end do
     end do
+    ! square root of sum
+    norm = sqrt(sum_of_elements)
+    ! printing results
+    print *, "Norm =", norm
 end program main
