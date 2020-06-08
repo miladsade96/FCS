@@ -10,4 +10,13 @@ program main
     ! getting shape of matrix from user input
     print *, "Enter the shape of matrix(rows, columns):"
     read *, m, n
+    ! allocating mem space to matrix
+    allocate(A(m, n))
+    ! getting matrix elements from user input
+    do i = 1, m
+        do j = 1, n
+            print *, "A(", i, j, "):"
+            read *, A(i, j)
+        end do
+    end do
 end program main
