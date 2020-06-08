@@ -7,4 +7,7 @@ program main
     integer :: i, j, m, n
     real :: norm, tmp, sum_of_elements = 0.0
     real, allocatable, dimension(:,:) :: A
+    ! getting shape of matrix from user input
+    print *, "Enter the shape of matrix(rows, columns):"
+    read *, m, n
 end program main
