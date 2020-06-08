@@ -19,4 +19,11 @@ program main
             read *, A(i, j)
         end do
     end do
+    ! sum of all squared elements in matrix
+    do i = 1, m
+        do j = 1, n
+            tmp = (abs(A(i, j))) ** 2
+            sum_of_elements = sum_of_elements + tmp
+        end do
+    end do
 end program main
