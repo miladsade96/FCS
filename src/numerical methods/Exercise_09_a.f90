@@ -7,4 +7,6 @@ program main
     integer :: i, n
     real :: norm, tmp, sum_of_elements = 0.0
     real, allocatable, dimension(:) :: A
+    print *, "please enter number of elements in the vector:"
+    read *, n
 end program main
