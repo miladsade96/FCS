@@ -3,4 +3,8 @@
 
 program main
     implicit none
+    ! declaring and initializing variables
+    integer :: i, j, m, n
+    real :: norm, tmp, sum_of_elements = 0.0
+    real, allocatable, dimension(:,:) :: A
 end program main
