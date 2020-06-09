@@ -6,4 +6,16 @@ program main
     ! declaring variables
     integer :: i, j, n, tmp
     integer , allocatable, dimension(:) :: a
+    ! getting user input in order to specify length of series
+    do
+        print *, "Enter the length of series:"
+        read *, n
+        ! if user input is not a positive integer or is equal to zero
+        if (n <= 0) then
+            print *, "Number of elements should be positive integer."
+            cycle
+        else    ! if user input is a positive integer
+            exit
+        end if
+    end do
 end program main
