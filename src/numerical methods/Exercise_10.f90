@@ -18,4 +18,6 @@ program main
             exit
         end if
     end do
+    ! allocating memory space to array
+    allocate(a(n))
 end program main
