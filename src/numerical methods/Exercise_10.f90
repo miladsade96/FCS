@@ -26,4 +26,11 @@ program main
         print *, "a(", i, "):"
         read*, a(i)
     end do
+    ! determining and printing the elements that are divisible by the inteher 3
+    do j = 1, size(a)
+        tmp = (a(j) / 3) * 3
+        if (tmp == a(j)) then
+            print *, a(j)
+        end if
+    end do
 end program main
