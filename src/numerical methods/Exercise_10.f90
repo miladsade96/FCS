@@ -3,4 +3,7 @@
 
 program main
     implicit none
+    ! declaring variables
+    integer :: i, j, n, tmp
+    integer , allocatable, dimension(:) :: a
 end program main
