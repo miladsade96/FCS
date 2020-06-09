@@ -50,5 +50,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
     * [Exercise_08_d - Arcsin(x) taylor series](/src/numerical%20methods/Exercise_08_d.f90)
     * [Exercise_09_a - Vector norm](/src/numerical%20methods/Exercise_09_a.f90)
     * [Exercise_09_b - Matrix norm](/src/numerical%20methods/Exercise_09_b.f90)
+    * [Exercise_10 - Elements of the series that are divisible by integer 3](/src/numerical%20methods/Exercise_10.f90)
 
 **Work in progress**
