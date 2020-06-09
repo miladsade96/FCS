@@ -20,4 +20,10 @@ program main
     end do
     ! allocating memory space to array
     allocate(a(n))
+    print *, "Enter value of elements:"
+    ! assigning value of elements to array blocks
+    do i = 1, size(a)
+        print *, "a(", i, "):"
+        read*, a(i)
+    end do
 end program main
