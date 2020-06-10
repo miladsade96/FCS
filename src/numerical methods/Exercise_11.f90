@@ -15,4 +15,13 @@ program main
     ! because we don't need to check all elements of array
     ! if i^2 > size of array, there is no non-prime number in array.
     root = int(sqrt(real(size(a))))
+    ! checking elements of array
+    do i = 2, root
+        if (a(i)) then  ! if a(i) is true
+            ! set all multiples of i as false
+            do j = i * i, size(a), i
+                a(j) = .false.
+            end do
+        end if
+    end do
 end program main
