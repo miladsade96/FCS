@@ -3,4 +3,7 @@
 
 program main
     implicit none
+    ! declaring variables
+    integer :: i, j, k , root
+    logical(1), dimension(1000) :: a
 end program main
