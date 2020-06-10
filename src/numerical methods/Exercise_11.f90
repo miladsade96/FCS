@@ -24,4 +24,10 @@ program main
             end do
         end if
     end do
+    ! print all true(prime) numbers that are remained in array
+    do k = 1, size(a)
+        if (a(k)) then
+            print *, k
+        end if
+    end do
 end program main
