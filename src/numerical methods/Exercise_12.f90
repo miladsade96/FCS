@@ -13,4 +13,6 @@ program main
         tmp = (y(i - 1) + y(i) + y(i + 1)) / 3.0
         y(i) = tmp
     end do
+    ! printing results
+    print *, y
 end program main
