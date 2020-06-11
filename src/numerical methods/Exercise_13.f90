@@ -34,4 +34,26 @@ program main
         print *, "y(", j, "):"
         read *, y(j)
     end do
+    ! --------------------------------------------------------------------
+    ! tmp_1
+    do i = 1, n
+        tmp_1 = tmp_1 + (x(i) * y(i))
+    end do
+    ! tmp_2
+    do i = 1, n
+        tmp_2 = tmp_2 + x(i)
+    end do
+    ! tmp_3
+    do i = 1, n
+        tmp_3 = tmp_3 + y(i)
+    end do
+    ! tmp_4
+    do i = 1, n
+        tmp_4 = tmp_4 + x(i) ** 2
+    end do
+    ! tmp_5
+    do i = 1, n
+        tmp_5 = tmp_5 + y(i) ** 2
+    end do
+    ! --------------------------------------------------------------------
 end program main
