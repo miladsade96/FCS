@@ -53,5 +53,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
     * [Exercise_10 - Elements of the series that are divisible by integer 3](/src/numerical%20methods/Exercise_10.f90)
     * [Exercise_11 - Sort prime numbers between 1 and 1000](/src/numerical%20methods/Exercise_11.f90)
     * [Exercise_12 - Smoothing of the data](/src/numerical%20methods/Exercise_12.f90)
+    * [Exercise_13 - Correlation coefficient](/src/numerical%20methods/Exercise_13.f90)
 
 **Work in progress**
