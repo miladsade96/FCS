@@ -8,4 +8,9 @@ program main
     real :: tmp
     real, dimension(50) :: y
     y = [(i, i = 1, 50)]
+    ! calculating and replacing smoothing of thr data
+    do i = 2, 49
+        tmp = (y(i - 1) + y(i) + y(i + 1)) / 3.0
+        y(i) = tmp
+    end do
 end program main
