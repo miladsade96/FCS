@@ -20,4 +20,7 @@ program main
             exit
         end if
     end do
+    ! allocating memory space to arrays
+    allocate(x(n))
+    allocate(y(n))
 end program main
