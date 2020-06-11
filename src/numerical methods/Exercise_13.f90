@@ -23,4 +23,15 @@ program main
     ! allocating memory space to arrays
     allocate(x(n))
     allocate(y(n))
+    ! assigning values to sets using user input
+    ! x set
+    do i = 1, n
+        print *, "x(", i, "):"
+        read *, x(i)
+    end do
+    ! y set
+    do j = 1, n
+        print *, "y(", j, "):"
+        read *, y(j)
+    end do
 end program main
