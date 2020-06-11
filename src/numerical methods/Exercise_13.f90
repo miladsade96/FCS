@@ -60,4 +60,8 @@ program main
     numerator = (n * tmp_1) - (tmp_2 * tmp_3)
     ! calculating denominator
     denominator = sqrt(n * tmp_4 - tmp_2 ** 2) * sqrt(n * tmp_5 - tmp_3 ** 2)
+    ! calculating correlation coefficient
+    corr = numerator / denominator
+    ! printing result
+    print *, "Correletion coefficient:", corr
 end program main
