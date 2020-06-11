@@ -3,4 +3,8 @@
 
 program main
     implicit none
+    ! declaring variables
+    integer :: n, i, j
+    real :: tmp_1, tmp_2, tmp_3, tmp_4, tmp_5, corr, numerator, denominator
+    real, allocatable, dimension(:) :: x, y
 end program main
