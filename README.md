@@ -54,5 +54,6 @@ All file are compiled and tested with **gfortran v9.3.0** compiler.
     * [Exercise_11 - Sort prime numbers between 1 and 1000](/src/numerical%20methods/Exercise_11.f90)
     * [Exercise_12 - Smoothing of the data](/src/numerical%20methods/Exercise_12.f90)
     * [Exercise_13 - Correlation coefficient](/src/numerical%20methods/Exercise_13.f90)
+    * [Exercise_14 - Cardano's solution of the cubic equation](/src/numerical%20methods/Exercise_14.f90)
 
 **Work in progress**
