@@ -32,5 +32,12 @@ program main
             x_k(k) = (-2 * sqrt(Q)) * cos((theta + 2 * pi * (k - 1)) / 3) - (a_1 / 3)
         end do
         print *, "Real roots are:", x_k
+    else    ! we have one real and two complex roots
+        s = -1 * sign(1.0, R) * (abs(R) + sqrt(R ** 2 - Q ** 3))
+        omega = (-1, 1.7320) / 2
+        x_1 = s + Q / s - a_1 / 3
+        z_2 = (omega * s) + (omega ** 2 * (Q / s)) - a_1 / 3
+        z_3 = (omega ** 2 * s) + (omega * Q / s) - a_1 / 3
+        print *, "Real root is:", x_1, "Complex roots are:", z_2, z_3
     end if
 end program main
