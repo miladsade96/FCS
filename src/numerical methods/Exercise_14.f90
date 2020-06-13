@@ -10,4 +10,10 @@ program main
     ! z_k --> an array to store 3 real roots of equation for k = 1, 2, 3
     ! discriminant --> to specifying whether the equation has complex roots or not
     ! theta, omega, Q, R, s --> Check out /img/Exercise_14.png
+    ! declaring variables
+    integer :: k
+    real :: a_1, a_2, a_3, Q, R, discriminant, theta, s, x_1
+    complex :: z_2, z_3, omega
+    real , dimension(3) :: x_k
+    real, parameter :: pi = 3.1415
 end program main
