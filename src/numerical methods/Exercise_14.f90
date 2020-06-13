@@ -24,4 +24,13 @@ program main
     Q = (a_1 ** 2 - 3 * a_2) / 9
     R = ((2 * a_1 ** 3) - 9 * a_1 * a_2 + 27 * a_3) / 54
     discriminant = Q ** 3 - R ** 2
+    if (discriminant >= 0) then ! we have three real roots
+        ! calculating theta
+        theta = acos(R / sqrt(Q ** 3))
+        ! calculating and storing real roots in x_k for k = 1, 2, 3
+        do k = 1, 3
+            x_k(k) = (-2 * sqrt(Q)) * cos((theta + 2 * pi * (k - 1)) / 3) - (a_1 / 3)
+        end do
+        print *, "Real roots are:", x_k
+    end if
 end program main
