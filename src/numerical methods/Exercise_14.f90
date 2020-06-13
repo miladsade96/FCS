@@ -20,4 +20,8 @@ program main
     print *, "Please enter coefficients for cubic equation:"
     print *, "Cubic equation -> x^3 + a_1 * x^2 + a_2 * x + a_3 = 0"
     read *, a_1, a_2, a_3
+    ! calculating Q, R and discriminant
+    Q = (a_1 ** 2 - 3 * a_2) / 9
+    R = ((2 * a_1 ** 3) - 9 * a_1 * a_2 + 27 * a_3) / 54
+    discriminant = Q ** 3 - R ** 2
 end program main
