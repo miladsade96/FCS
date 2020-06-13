@@ -16,4 +16,8 @@ program main
     complex :: z_2, z_3, omega
     real , dimension(3) :: x_k
     real, parameter :: pi = 3.1415
+    ! getting user input for equation coefficients
+    print *, "Please enter coefficients for cubic equation:"
+    print *, "Cubic equation -> x^3 + a_1 * x^2 + a_2 * x + a_3 = 0"
+    read *, a_1, a_2, a_3
 end program main
