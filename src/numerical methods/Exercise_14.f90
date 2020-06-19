@@ -31,6 +31,10 @@ module m_cardano
             S = sign(1.0, temp) * abs(temp)**(1.0 / 3.0)
             temp = R - sqrt(Q**3 + R**2)
             T = sign(1.0, temp) * abs(temp)**(1.0 / 3.0)
+
+            ! calculating real and imaginary parts of complex roots
+            r_part = -(s + t) / 2.0 - b / (3.0 * a)
+            i_part = (sqrt(3.0) / 2.0) * (s - t)
         end function solve
 end module m_cardano
 
