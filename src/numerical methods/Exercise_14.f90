@@ -14,6 +14,11 @@ module m_cardano
         complex :: z_2  ! first complex root
         complex :: z_3  ! second complex root
     end type t_cubic_solution
+
+    contains
+        pure type(t_cubic_solution) function solve(a, b, c, d) result(res)
+
+        end function solve
 end module m_cardano
 
 program main
