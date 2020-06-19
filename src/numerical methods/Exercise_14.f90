@@ -20,6 +20,10 @@ module m_cardano
             ! declaring dummy parameters and local variables
             real, intent(in) :: a, b, c, d
             real :: Q, R, S, T, r_part, i_part, temp
+
+            ! calculating values of Q and R
+            Q = (3.0*a*c - b**2) / (9.0 * a**2)
+            R = (9.0*a*b*c - 27.0*d* a**2 - 2.0 * b**3) / (54.0 * a**3)
         end function solve
 end module m_cardano
 
