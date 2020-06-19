@@ -4,6 +4,7 @@
 
 module m_cardano
     implicit none
+    private     ! makes this module private
 end module m_cardano
 
 program main
