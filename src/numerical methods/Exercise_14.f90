@@ -5,6 +5,8 @@
 module m_cardano
     implicit none
     private     ! makes this module private
+    ! makes these entities accessible from outside of the module
+    public t_cubic_solution, solve
 end module m_cardano
 
 program main
