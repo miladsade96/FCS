@@ -35,6 +35,11 @@ module m_cardano
             ! calculating real and imaginary parts of complex roots
             r_part = -(s + t) / 2.0 - b / (3.0 * a)
             i_part = (sqrt(3.0) / 2.0) * (s - t)
+
+            ! calculating and returning real and complex roots
+            res%x_1 = S + T - b / (3.0 * a)
+            res%z_2 = cmplx(r_part, i_part)
+            res%z_3 = cmplx(r_part, -i_part)
         end function solve
 end module m_cardano
 
