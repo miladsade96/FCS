@@ -24,6 +24,13 @@ module m_cardano
             ! calculating values of Q and R
             Q = (3.0*a*c - b**2) / (9.0 * a**2)
             R = (9.0*a*b*c - 27.0*d* a**2 - 2.0 * b**3) / (54.0 * a**3)
+
+            ! using temp adjunct variable and abs intrinsic function in order to
+            ! prevent `negative real to a real power` error
+            temp = R + sqrt(Q**3 + R**2)
+            S = sign(1.0, temp) * abs(temp)**(1.0 / 3.0)
+            temp = R - sqrt(Q**3 + R**2)
+            T = sign(1.0, temp) * abs(temp)**(1.0 / 3.0)
         end function solve
 end module m_cardano
 
