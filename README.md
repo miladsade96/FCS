@@ -55,5 +55,6 @@ All file are compiled and tested with **gfortran v5.5.0** compiler.
     * [Exercise_12 - Smoothing of the data](/src/numerical%20methods/Exercise_12.f90)
     * [Exercise_13 - Correlation coefficient](/src/numerical%20methods/Exercise_13.f90)
     * [Exercise_14 - Cardano's solution of the cubic equation - **Work in progress**](/src/numerical%20methods/Exercise_14.f90)
+    * [Exercise_15 - Continued fraction - **Work in progress**](/src/numerical%20methods/Exercise_15.f90)
 
 **Work in progress**
