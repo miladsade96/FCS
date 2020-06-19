@@ -44,5 +44,6 @@ module m_cardano
 end module m_cardano
 
 program main
+    use m_cardano   ! importing module
     implicit none
 end program main
