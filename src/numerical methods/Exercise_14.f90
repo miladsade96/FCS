@@ -46,4 +46,7 @@ end module m_cardano
 program main
     use m_cardano   ! importing module
     implicit none
+    ! declaring variables
+    real :: a, b, c, d
+    type(t_cubic_solution) ::roots
 end program main
