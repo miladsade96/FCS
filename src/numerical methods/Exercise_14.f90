@@ -49,4 +49,10 @@ program main
     ! declaring variables
     real :: a, b, c, d
     type(t_cubic_solution) ::roots
+
+    print *, "Cardano's solution for solving cubic equation"
+    print *, "Cubic equation: ax^3 + bx^2 + cx + d = 0"
+    print *, "Enter coefficients: a, b, c, d respectively:"
+    ! getting coefficients of cubic equation using user input
+    read *, a, b, c, d
 end program main
