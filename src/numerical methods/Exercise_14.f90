@@ -7,6 +7,13 @@ module m_cardano
     private     ! makes this module private
     ! makes these entities accessible from outside of the module
     public t_cubic_solution, solve
+
+    ! defining a derived type
+    type t_cubic_solution
+        real :: x_1     ! real root of equation
+        complex :: z_2  ! first complex root
+        complex :: z_3  ! second complex root
+    end type t_cubic_solution
 end module m_cardano
 
 program main
