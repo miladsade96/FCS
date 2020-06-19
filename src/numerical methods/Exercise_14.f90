@@ -48,11 +48,15 @@ program main
     implicit none
     ! declaring variables
     real :: a, b, c, d
-    type(t_cubic_solution) ::roots
+    type(t_cubic_solution) :: roots
 
     print *, "Cardano's solution for solving cubic equation"
     print *, "Cubic equation: ax^3 + bx^2 + cx + d = 0"
     print *, "Enter coefficients: a, b, c, d respectively:"
     ! getting coefficients of cubic equation using user input
     read *, a, b, c, d
+    ! calling solve function
+    roots = solve(a, b, c, d)
+    ! printing results
+    print *, "Roots:", roots
 end program main
