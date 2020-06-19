@@ -17,7 +17,9 @@ module m_cardano
 
     contains
         pure type(t_cubic_solution) function solve(a, b, c, d) result(res)
-
+            ! declaring dummy parameters and local variables
+            real, intent(in) :: a, b, c, d
+            real :: Q, R, S, T, r_part, i_part, temp
         end function solve
 end module m_cardano
 
