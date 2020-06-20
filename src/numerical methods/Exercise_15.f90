@@ -38,4 +38,5 @@ end module continued_fractions
 
 program main
     use continued_fractions, only: cf, pi_seq
+    implicit none   ! disabling implicit type assignment feature
 end program main
