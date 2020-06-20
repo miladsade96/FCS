@@ -5,4 +5,6 @@
 module continued_fractions
     implicit none
     private     ! makes this module private
+    ! makes these entities accessible from outside of the module
+    public cf, pi_seq
 end module continued_fractions
