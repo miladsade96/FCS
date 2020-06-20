@@ -14,7 +14,7 @@ module continued_fractions
         recursive function cf(b) result(pq)
             ! Returns the *simple* continued fraction of the sequence b
             ! declaring dummy parameters and local variables
-            real, intent(in) :: b(:)
+            integer, intent(in) :: b(:)
             real :: pq(2)
             real :: pq_n1(2), pq_n2(2)
             integer :: n
@@ -45,4 +45,7 @@ program main
     ! calling function and calculating continued fraction
     pq = cf(pi_seq)
     result = pq(1) / pq(2)
+    ! printing results
+    print *, "Continued fraction result:", result
+    print *, "PI exact value:", PI
 end program main
