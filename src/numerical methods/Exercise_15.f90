@@ -42,4 +42,7 @@ program main
     ! declaring and initializing variables and constants
     real :: result, pq(2)
     real, parameter :: PI  = 4.0 * atan(1.0)
+    ! calling function and calculating continued fraction
+    pq = cf(pi_seq)
+    result = pq(1) / pq(2)
 end program main
