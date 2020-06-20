@@ -37,4 +37,5 @@ end module continued_fractions
 
 
 program main
+    use continued_fractions, only: cf, pi_seq
 end program main
