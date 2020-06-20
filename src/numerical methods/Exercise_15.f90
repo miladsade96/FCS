@@ -4,4 +4,5 @@
 
 module continued_fractions
     implicit none
+    private     ! makes this module private
 end module continued_fractions
