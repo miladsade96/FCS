@@ -13,5 +13,11 @@ module continued_fractions
     contains
         recursive function cf(b) result(pq)
             ! Returns the *simple* continued fraction of the sequence b
+            ! declaring dummy parameters and local variables
+            real, intent(in) :: b(:)
+            real :: pq(2)
+            real :: pq_n1(2), pq_n2(2)
+            integer :: n
+            n = size(b)
         end function cf
 end module continued_fractions
