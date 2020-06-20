@@ -39,4 +39,7 @@ end module continued_fractions
 program main
     use continued_fractions, only: cf, pi_seq
     implicit none   ! disabling implicit type assignment feature
+    ! declaring and initializing variables and constants
+    real :: result, pq(2)
+    real, parameter :: PI  = 4.0 * atan(1.0)
 end program main
