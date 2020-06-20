@@ -34,3 +34,7 @@ module continued_fractions
             end if
         end function cf
 end module continued_fractions
+
+
+program main
+end program main
