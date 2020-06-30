@@ -49,4 +49,29 @@ recursive subroutine qs(seq, first, last)
     mid = seq((first + last) / 2)
     high = last
     low = first
+    ! quick sort algorithm
+    do
+        do while(seq(low) < mid)
+            low = low + 1
+        end do
+        do while(seq(high) > mid)
+            high = high - 1
+        end do
+        if (low <= high) then
+            tmp = seq(low)
+            seq(low) = seq(high)
+            low = low + 1
+            seq(high) = tmp
+            high = high - 1
+        end if
+        if (low > high) then
+            exit
+        end if
+    end do
+    if (low < last) then
+        call qs(seq, low, last)
+    end if
+    if (first < high) then
+        call qs(seq, first, high)
+    end if
 end subroutine qs
