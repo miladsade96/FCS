@@ -9,4 +9,15 @@ program quick_sort
     ! declaring variables
     integer, allocatable, dimension(:) :: a
     integer :: first, last, n, i
+    ! getting length of sequence from user input
+    do
+        print *, "Enter length of sequence:"
+        read *, n
+        if (n > 0) then
+            exit
+        else
+            print *, "Length should be positive integer!"
+            cycle
+        end if
+    end do
 end program quick_sort
