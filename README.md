@@ -35,6 +35,7 @@ All file are compiled and tested with **gfortran v5.5.0** compiler.
     * [Slope of the chod](/src/other/slope_of_chord.f90)
     * [Mean and standard deviation of the sequence](/src/other/mean_sd_x.f90)
     * [Testing OpenMP Library](/src/other/test_open_mp.f90)
+    * [Quick sort algorithm](src/other/quick_sort.f90)
 
 * [Numerical Methods Exercises:](/src/numerical%20methods)
     * [Exercise_01 - Current in an AC circuit](/src/numerical%20methods/Exercise_01.f90)
