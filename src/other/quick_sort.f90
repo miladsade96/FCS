@@ -45,4 +45,8 @@ recursive subroutine qs(seq, first, last)
     integer, dimension(:), intent(inout) :: seq
     integer, intent(in) :: first, last
     integer :: mid, high, low, tmp
+    ! initializing local variables
+    mid = a((first + last) / 2)
+    high = last
+    low = first
 end subroutine qs
