@@ -38,3 +38,8 @@ program quick_sort
     ! printing sorted sequence
     print *, "a:", a
 end program quick_sort
+
+! defining and implementing qs subroutine
+recursive subroutine qs(seq, first, last)
+
+end subroutine qs
