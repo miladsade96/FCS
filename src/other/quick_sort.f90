@@ -41,5 +41,8 @@ end program quick_sort
 
 ! defining and implementing qs subroutine
 recursive subroutine qs(seq, first, last)
-
+    ! declaring dummy parameters and local variables
+    integer, dimension(:), intent(inout) :: seq
+    integer, intent(in) :: first, last
+    integer :: mid, high, low, tmp
 end subroutine qs
