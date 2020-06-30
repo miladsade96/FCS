@@ -28,4 +28,9 @@ program quick_sort
         print *, "Element number", i, ":"
         read *, a(i)
     end do
+    ! specifying first and last element
+    first = 1
+    last = n
+    ! printing unsorted sequence
+    print *, "a:",a
 end program quick_sort
