@@ -6,4 +6,7 @@ program quick_sort
             integer, intent(in) :: first, last
         end subroutine qs
     end interface
+    ! declaring variables
+    integer, allocatable, dimension(:) :: a
+    integer :: first, last, n, i
 end program quick_sort
