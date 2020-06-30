@@ -1,3 +1,7 @@
+! Created by EverLookNeverSee@GitHub on 6/30/20
+! This program applies quick sort algorithm on
+! an arbitrary sized sequence of numbers.
+
 program quick_sort
     interface
         ! declaring qs subroutine inside interface
