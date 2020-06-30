@@ -33,4 +33,8 @@ program quick_sort
     last = n
     ! printing unsorted sequence
     print *, "a:",a
+    ! calling quick sort subroutine
+    call qs(a, first, last)
+    ! printing sorted sequence
+    print *, "a:", a
 end program quick_sort
