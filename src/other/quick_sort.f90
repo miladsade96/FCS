@@ -20,4 +20,12 @@ program quick_sort
             cycle
         end if
     end do
+    ! allocating memory space to array
+    allocate(a(n))
+    ! getting elements of sequence from user
+    print *, "Please enter the elements of sequence:"
+    do i = 1, n
+        print *, "Element number", i, ":"
+        read *, a(i)
+    end do
 end program quick_sort
