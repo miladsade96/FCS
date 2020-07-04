@@ -17,4 +17,11 @@ end module kinds_m
 module trig_m
     ! importing WP from kinds module
     use kinds_m, only: WP
+    ! Named constants
+    real(WP), parameter :: ONE = 1.0_wp
+    real(WP), parameter :: TWO = 2.0_wp
+    real(WP), parameter :: PI = 3.14159265358979323846264338327950288_wp
+    real(WP), parameter :: DEG_TO_RAD = PI/180.0_wp
+    real(WP), parameter :: TOL = 1e-3_wp !<-- Suitable tolerance for continued fraction series
+    real(WP), parameter :: UPPER_LIMIT = ONE/TOL
 end module trig_m
