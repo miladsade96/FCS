@@ -10,5 +10,6 @@
 !
 
 module kinds_m
-   
+    ! Returns the kind value of a real data type with decimal precision of at least P digits
+    integer, parameter :: WP = selected_real_kind( p=12 ) ! Select suitable precision
 end module kinds_m
