@@ -64,4 +64,11 @@ program CalcTanx
     ! declaring and initializing variables
     real(WP) :: degx, tanx
     degx = 40.0_wp
+    ! Calcuating tan value
+    tanx = tand(degx)
+    ! printing results
+    print *, "x(degrees): ", degx
+    print *, "tan(x) using Lambert's formula: ", tanx
+    print *, "% diff with intrinsic tan: ", (tanx/tan(degx*DEG_TO_RAD)-1.0_wp)*100.0_wp
+    stop
 end program CalcTanx
