@@ -58,4 +58,7 @@ contains
 end module trig_m
 
 program CalcTanx
+    ! importing relevant modules
+    use kinds_m, only: WP
+    use trig_m, only: tand, DEG_TO_RAD
 end program CalcTanx
