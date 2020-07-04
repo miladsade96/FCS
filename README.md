@@ -57,5 +57,6 @@ All file are compiled and tested with **gfortran v5.5.0** compiler.
     * [Exercise_13 - Correlation coefficient](/src/numerical%20methods/Exercise_13.f90)
     * [Exercise_14 - Cardano's solution of the cubic equation](/src/numerical%20methods/Exercise_14.f90)
     * [Exercise_15 - Continued fraction](/src/numerical%20methods/Exercise_15.f90)
+    * [Exercise_16 - Computing tan(x) using Lambert's formula](/src/numerical%20methods/Exercise_16.f90)
 
 **Work in progress**
