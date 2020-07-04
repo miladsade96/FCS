@@ -56,3 +56,6 @@ contains
       return
   end function CalcfracLambert
 end module trig_m
+
+program CalcTanx
+end program CalcTanx
