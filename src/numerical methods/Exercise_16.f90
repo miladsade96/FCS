@@ -24,4 +24,18 @@ module trig_m
     real(WP), parameter :: DEG_TO_RAD = PI/180.0_wp
     real(WP), parameter :: TOL = 1e-3_wp !<-- Suitable tolerance for continued fraction series
     real(WP), parameter :: UPPER_LIMIT = ONE/TOL
+
+contains
+    elemental function tand(degx) result(tanx)
+      ! Calculate tangent of x in degrees using Lambert's formula
+      ! Argument list
+      real(WP), intent(in) :: degx ! x in degrees
+      ! Function result
+      real(WP) :: tanx
+      ! Local variables
+      real(WP) :: x
+      x = degx * DEG_TO_RAD
+      tanx = x / ( ONE + CalcFracLambert(x, n = 1))
+      return
+    end function tand
 end module trig_m
