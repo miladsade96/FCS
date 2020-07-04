@@ -8,3 +8,7 @@
 ! Lambert's continued fraction dating back to 1768 which gives
 ! tan(x) = x/(1-x**2/(3-x**2/(5-x**2/(7-x**2/..))))
 !
+
+module kinds_m
+   
+end module kinds_m
