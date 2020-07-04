@@ -38,4 +38,21 @@ contains
       tanx = x / ( ONE + CalcFracLambert(x, n = 1))
       return
     end function tand
+
+    pure recursive function CalcFracLambert(x, n) result(Frac)
+      ! Argument list
+      real(WP), intent(in) :: x ! x in radians
+      integer, intent(in)  :: n
+      ! Function result
+      real(WP) :: Frac
+      ! Local variables
+      real(WP) :: Term
+      Term = TWO*n + ONE
+      if ( Term > UPPER_LIMIT ) then
+         Frac = - x**2 / Term
+      else
+         Frac = - x**2 / ( Term + CalcFracLambert(x, n+1) )
+      end if
+      return
+  end function CalcfracLambert
 end module trig_m
