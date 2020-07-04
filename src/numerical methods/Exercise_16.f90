@@ -61,4 +61,7 @@ program CalcTanx
     ! importing relevant modules
     use kinds_m, only: WP
     use trig_m, only: tand, DEG_TO_RAD
+    ! declaring and initializing variables
+    real(WP) :: degx, tanx
+    degx = 40.0_wp
 end program CalcTanx
