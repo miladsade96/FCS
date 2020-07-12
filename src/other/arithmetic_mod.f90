@@ -39,4 +39,23 @@ contains
         sum = n_1 + n_2
     end function complex_add
 
+    ! Subtractor Functions
+    function int_sub(n_1, n_2) result(sub)
+        integer, intent(in) :: n_1, n_2
+        integer :: sub
+        sub = n_1 - n_2
+    end function int_sub
+
+    function real_sub(n_1, n_2) result(sub)
+        real, intent(in) :: n_1, n_2
+        real :: sub
+        sub = n_1 - n_2
+    end function real_sub
+
+    function complex_sub(n_1, n_2) result(sub)
+        complex, intent(in) :: n_1, n_2
+        complex :: sub
+        sub = n_1 - n_2
+    end function complex_sub
+
 end module arithmetic_mod
