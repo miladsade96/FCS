@@ -58,4 +58,23 @@ contains
         sub = n_1 - n_2
     end function complex_sub
 
+    ! Multiplier Functions
+    function int_mult(n_1, n_2) result(mult)
+        integer, intent(in) :: n_1, n_2
+        integer :: mult
+        mult = n_1 * n_2
+    end function int_mult
+
+    function real_mult(n_1, n_2) result(mult)
+        real, intent(in) :: n_1, n_2
+        real :: mult
+        mult = n_1 * n_2
+    end function real_mult
+
+    function complex_mult(n_1, n_2) result(mult)
+        complex, intent(in) :: n_1, n_2
+        complex :: mult
+        mult = n_1 * n_2
+    end function complex_mult
+
 end module arithmetic_mod
