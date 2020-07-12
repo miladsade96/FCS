@@ -19,4 +19,24 @@ module arithmetic_mod
         procedure int_div, real_div, complex_div
     end interface divider
 
+contains
+    ! Adder Functions
+    function int_add(n_1, n_2) result(sum)
+        integer, intent(in) :: n_1, n_2
+        integer :: sum
+        sum = n_1 + n_2
+    end function int_add
+
+    function real_add(n_1, n_2) result(sum)
+        real, intent(in) :: n_1, n_2
+        real :: sum
+        sum = n_1 + n_2
+    end function real_add
+
+    function complex_add(n_1, n_2) result(sum)
+        complex, intent(in) :: n_1, n_2
+        complex :: sum
+        sum = n_1 + n_2
+    end function complex_add
+
 end module arithmetic_mod
