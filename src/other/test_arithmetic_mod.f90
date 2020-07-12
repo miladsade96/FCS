@@ -21,4 +21,11 @@ program test
     print "(a14,f5.1)", "25.0 - 35.0 = ", subtractor(r_num_1, r_num_2)
     print "(a19,(f5.3,f7.3))", "(7, 8) - (5, -7) = ", &
     subtractor(com_num_1, com_num_2)
+
+    ! Testing multiplier interface
+    print "(/,a26)", "Test multiplier interface:"
+    print "(a8,i2)", "2 * 3 = ", multiplier(i_num_1, i_num_2)
+    print "(a14,f5.1)", "25.0 * 35.0 = ", multiplier(r_num_1, r_num_2)
+    print "(a19,(f6.3,f7.3))", "(7, 8) * (5, -7) = ", &
+    multiplier(com_num_1, com_num_2)
 end program test
