@@ -77,4 +77,30 @@ contains
         mult = n_1 * n_2
     end function complex_mult
 
+    ! Divider Functions
+    function int_div(n_1, n_2) result(div)
+        integer, intent(in) :: n_1, n_2
+        integer :: div
+        if ( n_2 == 0 ) then
+            print "(a20)", "Zero division error!"
+        else
+            div = n_1 / n_2
+        end if
+    end function int_div
+
+    function real_div(n_1, n_2) result(div)
+        real, intent(in) :: n_1, n_2
+        real :: div
+        if ( n_2 == 0.0 ) then
+            print "(a20)", "Zero division error!"
+        else
+            div = n_1 / n_2
+        end if
+    end function real_div
+
+    function complex_div(n_1, n_2) result(div)
+        complex, intent(in) :: n_1, n_2
+        complex :: div
+        div = n_1 / n_2
+    end function complex_div
 end module arithmetic_mod
