@@ -36,7 +36,7 @@ All file are compiled and tested with **gfortran v5.5.0** compiler.
     * [Mean and standard deviation of the sequence](/src/other/mean_sd_x.f90)
     * [Testing OpenMP Library](/src/other/test_open_mp.f90)
     * [Quick sort algorithm](src/other/quick_sort.f90)
-    * [Arithmetic module in order to handle different types of input value:](/src/other/arithmetic%20module)
+    * [Generic procedures:](/src/other/arithmetic%20module)
         * [Module file](/src/other/arithmetic%20module/arithmetic_mod.f90)
         * [Test file](/src/other/arithmetic%20module/test_arithmetic_mod.f90)
 
