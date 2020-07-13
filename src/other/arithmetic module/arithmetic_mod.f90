@@ -1,3 +1,9 @@
+! Generic procedures
+! Defining a generic interface to a procedure is a way of grouping procedures with similar
+! functionality together under one name. Typically a generic procedure interface has a general
+! name and contains a list of specific procedures with similar functionality which are implemented
+! for all data types in a program.
+
 module arithmetic_mod
     implicit none
     private
