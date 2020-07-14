@@ -39,6 +39,7 @@ All file are compiled and tested with **gfortran v5.5.0** compiler.
     * [Generic procedures:](/src/other/arithmetic%20module)
         * [Module file](/src/other/arithmetic%20module/arithmetic_mod.f90)
         * [Test file](/src/other/arithmetic%20module/test_arithmetic_mod.f90)
+    * [Estimating PI value using Monte Carlo algorithm](/src/other/monte_carlo.f90)
 
 * [Numerical Methods Exercises:](/src/numerical%20methods)
     * [Exercise_01 - Current in an AC circuit](/src/numerical%20methods/Exercise_01.f90)
