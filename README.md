@@ -5,7 +5,7 @@ My fortran code snippets
 ELNS - [@EverLookNeverSee](https://github.com/EverLookNeverSee)
 
 ### Notes:
-All file are compiled and tested with **gfortran v5.5.0** compiler.
+All files are compiled and tested with **gfortran v5.5.0** compiler.
 
 ### Table of contents:
 * [Other:](/src)
