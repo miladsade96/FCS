@@ -8,7 +8,7 @@ ELNS - [@EverLookNeverSee](https://github.com/EverLookNeverSee)
 All files are compiled and tested with **gfortran v5.5.0** compiler.
 
 ### Table of contents:
-* [Other:](/src)
+* [Other:](/src/other)
     * [Memory requirements](/src/other/Memory_requirements.f90)
     * [Mile to kilometer](/src/other/Mile_to_Km.f90)
     * [Escape velocity from earth](/src/other/escape_velocity.f90)
