@@ -16,5 +16,5 @@ program main
     read *, E, R, L, C, f
     ! calculating I and printing the result
     I = E / sqrt(R ** 2 + ((2.0 * 3.1415 / L) - 1.0 / (2.0 * 3.1415 * f * C)) ** 2)
-    print *, "I:", I
+    print "(a3,f13.9)", "I: ", I
 end program main
