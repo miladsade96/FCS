@@ -26,7 +26,8 @@ program main
         ! increasing counter of arrays blocks
         j = j + 1
     end do
-    ! printing results
-    print *, "x:", x
-    print *, "v:", v
+    ! do loop for formated print
+    do i = 1, 37, 1
+        print "(a2,i2,a3,f15.10,10x,a2,i2,a3,f17.10)", "x(", i, "): ", x(i), "v(", i, "): ", v(i)
+    end do
 end program main
