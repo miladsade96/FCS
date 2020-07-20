@@ -21,6 +21,8 @@ program main
         i = i + 1
         goto 1
     end if
-    ! printing results
-    print *, "S:", S
+    ! do loop for formated print
+    do i = 1, 37, 1
+        print "(a2,i2,a3,f11.5)", "S(", i, "): ", S(i)
+    end do
 end program main
