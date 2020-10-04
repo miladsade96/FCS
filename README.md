@@ -61,6 +61,7 @@ All files are compiled and tested with **gfortran v5.5.0** compiler.
     * Quick sort algorithm - [[source](src/other/quick_sort.f90)]
     * Generic procedures - [[module source](src/other/arithmetic%20module/arithmetic_mod.f90), [test file](/src/other/arithmetic%20module/test_arithmetic_mod.f90)]
     * Estimating PI value using Monte Carlo algorithm - [[source](/src/other/monte_carlo.f90)]
+    * Selected_int_kind - [[source](/src/other/kind.f90)]
 
  
 **Work in progress**
