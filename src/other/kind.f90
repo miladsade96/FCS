@@ -5,4 +5,8 @@
 
 program main
     implicit none
+    ! defining desired kind and testing it
+    integer, parameter :: k6 = selected_int_kind(6)
+    integer :: x = 1_k6
+    print *, "x = ", x
 end program main
