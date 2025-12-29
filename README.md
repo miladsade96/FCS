@@ -2,7 +2,7 @@
 My fortran code snippets
 
 ### Author:
-ELNS - [@EverLookNeverSee](https://github.com/EverLookNeverSee)
+Milad Sadeghi - [@miladsade96](https://github.com/miladsade96)
 
 ### Notes:
 All files are compiled and tested with **gfortran v5.5.0** compiler.
